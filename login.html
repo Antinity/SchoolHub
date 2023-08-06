@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Login - School Hub</title>
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper animate__animated animate__fadeInDown">
         <div class="form-box login">
-            <span class="icon-back"><ion-icon name="arrow-back"></ion-icon></span>
+            <a href="index.html">
+                <span class="icon-close">
+                    <ion-icon name="arrow-back"></ion-icon>
+                </span>
+            </a>
             <h2 class="center title font-panton">School Hub</h2>
             <form action="#">
                 <div class="input-box">
-                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
                     <input type="email" required>
                     <label>Email</label>
                 </div>
                 <div class="input-box">
-                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
                     <input type="password" required>
                     <label>Password</label>
                 </div>
