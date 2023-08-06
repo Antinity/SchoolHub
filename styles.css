@@ -61,7 +61,7 @@ header {
 .nav__links a,
 .cta,
 .overlay__content a {
-  font-family: "Montserrat", sans-serif;
+  font-family: panton-blackcaps;
   font-weight: 500;
   color: #edf0f1;
   text-decoration: none;
@@ -70,6 +70,9 @@ header {
 .nav__links {
   list-style: none;
   display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav__links li {
@@ -95,6 +98,22 @@ header {
 
 .cta:hover {
   background-color: rgba(0, 136, 169, 0.8);
+}
+
+.student-search {
+  padding: 10px;
+  position: relative;
+  color: #f5f5f5;
+  background-color: rgba(36, 37, 42, 0.4);
+  border-radius: 10px;
+  border-style: initial;
+  outline: none;
+  height: 40px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
 }
 
 /* Mobile Nav */
